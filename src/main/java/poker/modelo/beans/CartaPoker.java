@@ -1,4 +1,7 @@
-package poker;
+package poker.modelo.beans;
+
+import enumeraciones.Palo;
+import enumeraciones.Valor;
 
 public class CartaPoker {
     private Palo palo;
@@ -19,5 +22,6 @@ public class CartaPoker {
 
     @Override
     public String toString() {
+        return this.palo+" | "+this.valor;
     }
 }

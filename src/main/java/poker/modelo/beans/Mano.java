@@ -1,4 +1,4 @@
-package poker;
+package poker.modelo.beans;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -26,6 +26,11 @@ public class Mano implements Serializable {
 
     @Override
     public String toString() {
-
+        StringBuilder manoCompleta = new StringBuilder();
+        manoCompleta.append(this.nickJugador);
+        for (CartaPoker cartaPoker : mano) {
+            manoCompleta.append(cartaPoker);
+        }
+        return manoCompleta.toString();
     }
 }
