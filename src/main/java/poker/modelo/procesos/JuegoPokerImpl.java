@@ -15,7 +15,7 @@ public class JuegoPokerImpl implements JuegoPoker {
     @Override
     public boolean isPoker(ArrayList<CartaPoker> cartas) { //4 iguales
         for (CartaPoker cartaPoker : cartas) {
-            if (cartaPoker.equals(cartas))
+            if (cartaPoker.equals(carta.))
         }
     }
 
