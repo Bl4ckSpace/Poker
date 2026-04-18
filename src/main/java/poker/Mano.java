@@ -1,4 +1,4 @@
-package poker.modelo.beans;
+package poker;
 
 import java.io.Serializable;
 import java.util.ArrayList;
